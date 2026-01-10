@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/logo.svg'
-import linkdn from '../assets/images/linkdnicon.svg'
+import linkedin from '../assets/images/linkedinicon.svg'
 import instgram from '../assets/images/insticon.svg'
 export default function Footer() {
     return (
@@ -19,7 +19,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className='flex gap-5 lg:pt-5'>
-                    <img className='w-8 h-8' src={linkdn} alt="error" />
+                    <img className='w-8 h-8' src={linkedin} alt="error" />
                     <img className='w-7 h-8' src={instgram} alt="error" />
                     <button className='w-35 h-7 bg-white text-black  rounded-lg'>Poland Division</button>
                 </div>
