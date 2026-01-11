@@ -3,12 +3,15 @@ import home from '../assets/videos/home.mp4'
 import Footer from '../components/Footer'
 import ElvhomeServices from '../components/ElvhomeServices'
 import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 export default function ElvHome() {
   return (
     <div >
+    
       <div className='relative  min-h-screen overflow-hidden'>
-        <video src={home} autoPlay muted loop  playsInline className="absolute  inset-0 w-full h-full object-cover" />
+         <Navbar/> 
+        <video src={home} autoPlay muted loop  playsInline className="absolute  inset-0 w-full h-full object-cover" alt='error' />
          <div className="absolute inset-0 bg-black/50"></div>
           <div className='relative z-10 md:max-w-7xl lg:max-w-7xl text-white pt-70 space-y-8 px-5 md:px-15 lg:px-25'>
            <Link to={'/cinema'}> <h1 className='text-5xl md:text-7xl font-medium '>HOME & BUILDING AUTOMATION SOLUTIONS</h1></Link>
