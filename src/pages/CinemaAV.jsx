@@ -12,7 +12,7 @@ export default function CinemaAV() {
               <Navbar/>
            <video src={cinema} autoPlay muted loop  playsInline className="absolute inset-0  w-full h-full object-cover " alt='error' />
               <div className="absolute inset-0  bg-black/50"></div>
-                     <div className='relative z-10 md:max-w-7xl lg:max-w-7xl text-white pt-70 space-y-8 px-5 md:px-15 lg:px-25'>
+                     <div className='relative z-10 md:max-w-7xl lg:max-w-7xl text-white pt-20 md:pt-70 space-y-8 px-5 md:px-15 lg:px-25'>
                      <Link to={'/itsolution'}>  <h1 className='text-5xl md:text-7xl font-medium '>CINEMA & AV SOLUTIONS</h1></Link> 
                        <p className=' md:w-130 text-xl'>From consultation and design to installation and integration, we deliver tailored audiovisual solutions that combine premium equipment, seamless control, and an immersive experience for any space.</p>
                        </div>
