@@ -13,11 +13,13 @@ export default function ElvhomeServices() {
 
 
                 return (
-                    <div key={index} className={`lg:flex items-center  gap-10 xl:gap-10  px-5 md:px-15 xl:px-24 py-10 xl:py-20  ${reverse ? "lg:flex-row-reverse" : ""}`} >
-                        <div className='flex-1'>
-                            <img className='w-190 lg:h-130' src={item.image} alt="error" />
-                        </div>
-                        <div className='  space-y-8 mt-8  flex-1  '>
+                    <div key={index} className={`lg:flex items-center  gap-15 xl:gap-10  px-5 md:px-15 xl:px-24 py-10 xl:py-20  ${reverse ? "lg:flex-row-reverse" : ""}`} >
+                        <div className='flex-1 relative  px-4 sm:px-0'>
+                             <div className='absolute w-40 md:w-80 h-40 md:h-80 rounded-xl bg-gradient-to-b from-[#76B8289E]  bg-gradient-to-r from-[#76B8289E]'></div>
+                            <img className='relative left-3 md:left-5 top-3 md:top-5 sm:w-85  md:w-180 lg:w-190 lg:h-130  ' src={item.image} alt="error" />
+                       </div>
+
+                        <div className='  space-y-8 mt-12  flex-1 sm:ml-10 '>
                             <h1 className='text-3xl md:text-4xl lg:text-5xl font-semibold'>{item.title}</h1>
                             <p className='text-lg md:text-xl lg:w-130 '>{item.description}</p>
                             <ul className='space-y-5 max-w-xl'>
