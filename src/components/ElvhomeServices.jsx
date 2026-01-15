@@ -34,7 +34,7 @@ export default function  ElvhomeServices () {
 
                 {/* IMAGE – NOT TOUCHED */}
                 <img
-                  className="relative sm:top-5 w-120 sm:w-170 md:w-195 lg:w-200 h-100 md:h-130 lg:h-170 mt-7 pt-4 sm:pt-0"
+                  className="relative sm:top-5 w-120 sm:w-170 md:w-195 lg:w-200 h-100 md:h-130 lg:h-150 mt-7 pt-4 sm:pt-0"
                   src={item.image}
                   alt="error"
                 />
