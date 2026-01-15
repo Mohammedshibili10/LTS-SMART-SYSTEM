@@ -6,6 +6,7 @@ import Elvitsolution from './pages/Elvitsolution'
 import CinemaAV from './pages/CinemaAV'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
+// import Try from './components/Try'
 
 function App() {
  
@@ -20,7 +21,7 @@ function App() {
 
 
     </Routes>
-     
+    
     </>
   )
 }
