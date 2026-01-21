@@ -15,10 +15,10 @@ export default function  ElvhomeServices () {
                 reverse ? 'lg:flex-row-reverse' : ''
               }`}
             >
-              {/* IMAGE WRAPPER */}
+             
               <div className="lg:w-1/2 flex justify-center sm:block relative lg:left-1 px-5 py-5 sm:py-0">
                 
-                {/* BACK SHADOW / GRADIENT */}
+              
                 <div
                   className={`absolute ${
                     isLeft
@@ -32,7 +32,7 @@ export default function  ElvhomeServices () {
                 `}
                 ></div>
 
-                {/* IMAGE – NOT TOUCHED */}
+             
                 <img
                   className="relative sm:top-5 w-120 sm:w-170 md:w-195 lg:w-200 h-100 md:h-130 lg:h-150 mt-7 pt-4 sm:pt-0"
                   src={item.image}
@@ -40,17 +40,17 @@ export default function  ElvhomeServices () {
                 />
               </div>
 
-              {/* TEXT SECTION */}
+            
               <div className="relative lg:w-1/2 lg:left-10 space-y-5 pt-9">
                 <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold">
                   {item.title}
                 </h1>
 
-                <p className="text-lg md:text-xl lg:w-100">
+                <p className="text-lg md:text-xl lg:w-100 xl:w-150">
                   {item.description}
                 </p>
 
-                <ul className="space-y-10">
+                <ul className="lg:space-y-5 xl:space-y-10">
                   {item.points.map((point, i) => (
                     <li key={i} className="flex items-center gap-4">
                       <img className="w-6 h-6" src={point.icon} alt="error" />
