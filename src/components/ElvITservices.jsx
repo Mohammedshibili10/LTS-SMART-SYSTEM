@@ -52,7 +52,7 @@ export default function ElvITservices() {
                   {item.description}
                 </p>
 
-                <ul className="lg:space-y-5 xl:space-y-10">
+                <ul className="space-y-4 lg:space-y-5 xl:space-y-10">
                   {item.points.map((point, i) => (
                     <li key={i} className="flex items-center gap-4">
                       <img className="w-6 h-6" src={point.icon} alt="error" />
